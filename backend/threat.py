@@ -1,7 +1,7 @@
 import requests
 import os
 
-ABUSEIPDB_KEY = os.getenv("ABUSEIPDB_KEY", "")
+ABUSEIPDB_KEY = os.getenv("ABUSEIPDB_KEY", "").strip()
 
 def check_ip(ip):
     if not ABUSEIPDB_KEY:
