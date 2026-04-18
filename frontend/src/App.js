@@ -4,8 +4,8 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'rec
 import axios from 'axios';
 import './App.css';
 
-const socket = io('http://127.0.0.1:5000');
-const API = 'http://127.0.0.1:5000';
+const socket = io('https://net-security-dashboard.onrender.com');
+const API = 'https://net-security-dashboard.onrender.com';
 
 export default function App() {
   const [traffic, setTraffic] = useState([]);
