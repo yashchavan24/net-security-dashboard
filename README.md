@@ -8,6 +8,14 @@ A real-time network security monitoring dashboard built with Python and React. D
 - **Frontend:** https://net-security-dashboard.vercel.app
 - **Backend API:** https://net-security-dashboard.onrender.com
 
+## 📸 Screenshots
+
+### Login Page
+![Login](./login.png.png)
+
+### Dashboard
+![Dashboard](./dashboard.png.png)
+
 ## ✨ Features
 - 🔴 Real-time live traffic monitoring via WebSockets
 - 🔍 Port scanner — scan any IP for open ports
